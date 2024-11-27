@@ -12,6 +12,10 @@ Waterwize is a web appplication that allows users to view customizable visualiza
 **Problem Statement**
 Water quality is a universally impactful to people's quality of life. While most major decisions affecting water quality will be made by large organizations, individuals still need more information about their local water quality beyond a general impression of it being "good" or "bad" if they are going to engage in activism, and generally make informed decisions. Waterwize will be a starting point that indivduals can take to begin learning more about what is affecting their local (as well as other) water sources and how it is doing so.
 
+![Image 1](https://i.imgur.com/mHpefSp.png)
+
+![Image 2](https://i.imgur.com/U1aNjTP.png)
+
 **Target Users**
 Individuals (i.e. not organizations), who are adults of any education level, who want to learn more about what affects water quality in various bodies of water.
 
