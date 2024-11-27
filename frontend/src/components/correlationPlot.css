@@ -1,0 +1,10 @@
+#scatter_plot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ScatterChart {
+    padding-bottom: 20px;
+}
+
