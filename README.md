@@ -1,3 +1,5 @@
+![Screenshot](https://i.imgur.com/OdqAcyW.png)
+
 ### Product Pitch
 
 **Waterwize: A Tool for Exploring the Correlation Between Air Quality, Water Quality, and Industrial Wastewater**
