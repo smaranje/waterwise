@@ -1,23 +1,100 @@
-![Screenshot](https://i.imgur.com/OdqAcyW.png)
+# Waterwise
 
-### Product Pitch
+---
 
-**Waterwize: A Tool for Exploring the Correlation Between Air Quality, Water Quality, and Industrial Wastewater**
+## **Explore the Connections**
+Discover how industrial activities impact our environment. Analyze the correlation between air emissions, wastewater discharge, and water quality interactively.
 
-Water is important. Everybody cares about the quality of our natural water sources to some degree or another, whether they worry about our drinking water sources, the many, rich aquatic ecosystems, or just dislike their local water bodies being dirty and smelly as see them day-to-day. However, the question of what makes up or detracts from "good water quality" in our natural bodies of water is not trivial to answer and the question of "what causes water quality to increase or decrease" is an incredibly complex one. With Waterwize, we provide a starting point for answering this important and complex question in the form of a tool that allows you to explore the correlation between air quality, waste water, and water quality. Waterwize will allow deep customization of it's correlation visualizations, along with providing both intuitive and technically detailed presentations of these correlations so that users from all backgrounds can use it learn about what affects the quality of their water.
+---
 
-### Project Description
-Waterwize is a web appplication that allows users to view customizable visualizations of the correlation between air quality, waste-water, and water quality. It will display a visualization of the correlation between these factors, statistics about their relationship, as well as other more intuitive presentation of the same data used to measure these relationships, such as rankings of locations based on these factors and map based graphics of how geographic regions' air, water, and waste-water differ.
+## **Product Pitch**
+**Waterwise: A Tool for Exploring the Correlation Between Air Quality, Water Quality, and Industrial Wastewater**
 
-**Problem Statement**
-Water quality is a universally impactful to people's quality of life. While most major decisions affecting water quality will be made by large organizations, individuals still need more information about their local water quality beyond a general impression of it being "good" or "bad" if they are going to engage in activism, and generally make informed decisions. Waterwize will be a starting point that indivduals can take to begin learning more about what is affecting their local (as well as other) water sources and how it is doing so.
+Water is a fundamental part of life, and understanding its quality is critical for individuals and organizations alike. With Waterwise, users can:
 
-![Image 1](https://i.imgur.com/mHpefSp.png)
+- Explore correlations between industrial emissions and water quality.
+- Gain insight into how human activities affect our natural water sources.
+- Use intuitive visualizations and data to make informed decisions about water quality.
 
-![Image 2](https://i.imgur.com/U1aNjTP.png)
+---
 
-**Target Users**
-Individuals (i.e. not organizations), who are adults of any education level, who want to learn more about what affects water quality in various bodies of water.
+## **Key Features**
+- **Customizable Visualizations**: Choose from various datasets and visualizations to gain deeper insights.
+- **Interactive Data Tables**: View and manipulate real-time data tables for better comprehension.
+- **Correlation Analysis**: Analyze the impact of industrial activities on different aspects of water quality.
 
-**App Scope**
-Waterwize is centered around the informing the average person about water quality and factors which affect it. As such, it will not involve very technical descriptions or analyses and will not perform much functionality outside the goal of being a helpful source of information for its users.
+---
+
+## **Target Users**
+- **Individuals**: Learn how water quality impacts daily life and health.
+- **Researchers**: Access a platform for studying environmental correlations.
+- **Policymakers**: Make data-driven decisions about environmental policies.
+
+---
+
+## **Technology Stack**
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python, TypeScript, Java
+- **Visualization**: Plotly, D3.js
+- **Data Management**: Mariadb
+
+---
+
+## **Screenshots**
+
+### **Home Page**
+![Home Page](https://i.imgur.com/OdqAcyW.png)
+
+### **Visualization Dashboard**
+![Visualization Dashboard](https://i.imgur.com/U1aNjTP.png)
+
+### **Data Tables**
+![Data Tables](https://i.imgur.com/mHpefSp.png)
+
+---
+
+## **Problem Statement**
+Water quality is universally important to people’s health and well-being. However, many lack access to clear, intuitive tools that connect water quality with industrial and environmental data. Waterwise bridges this gap by providing:
+
+- A user-friendly platform to explore and understand water quality data.
+- Tools for examining correlations between air quality, wastewater discharge, and water pollution.
+
+---
+
+## **Future Scope**
+1. **Mobile App Development**: Extend the platform for mobile users.
+2. **Real-Time Monitoring**: Integrate IoT sensors for live data updates.
+3. **Advanced Analytics**: Add AI-driven insights for prediction and forecasting.
+4. **Global Expansion**: Include data for regions worldwide.
+
+---
+
+## **How to Use**
+1. **Home Page**: Access an overview of the tool’s features and datasets.
+2. **Data Tables**: View detailed data about air, water, and wastewater metrics.
+3. **Visualizations**: Explore dynamic graphs and charts to understand trends and correlations.
+
+---
+
+## **Get Started**
+Clone the repository and start exploring:
+
+```bash
+git clone https://github.com/smaranje/waterwise.git
+cd waterwise
+```
+
+---
+
+## **Contributors**
+- **Smaranjeet Singh**  
+  Lead Developer and Designer
+
+---
+
+## **Contact**
+For inquiries, reach out at:
+- **Email**: [samsinghca064@gmail.com](mailto:samsinghca064@gmail.com)
+- **GitHub**: [@smaranje](https://github.com/smaranje)
+
+---
