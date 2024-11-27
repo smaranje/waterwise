@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+    "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+    "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<!--The checkstyle.xml provide with F22 term's CIS2430 A3, along with the checkstyle example 
+from https://github.com/nus-cs2103-AY2021S2/forum/issues/93 (link to the example:
+https://github.com/se-edu/addressbook-level3/blob/master/config/checkstyle/checkstyle.xml)
+were referenced for coding conventions ideas and checkstyle syntax-->
+
+
+<module name="Checker">
+    <property name="fileExtensions" value="java, properties, xml"/>
+    <property name="severity" value="error"/>
+
+    <!--Ensures there aren't any tab characters (\t) present-->
+    <module name="FileTabCharacter"/>
+
+    <module name="LineLength">
+        <property name="fileExtensions" value="java"/> <!--Other types of files might have anavoidably long lines-->
+        <property name="max" value="120"/>
+    </module>
+
+    <module name="TreeWalker">
+
+        <!--Imports-->
+        
+        <module name="AvoidStarImport">
+            <property name="severity" value="warning"/>
+        </module>
+        
+        <module name="RedundantImport"/>
+
+        <module name="UnusedImports"/>
+
+        <!--WhiteSpace-->
+
+        <module name="MethodParamPad"/>
+        <module name="NoWhitespaceAfter"/>
+        <module name="NoWhitespaceBefore"/>
+        <module name="OperatorWrap"/>
+        <module name="ParenPad"/>
+
+        <!--Naming-->
+
+        <!--Find the default naming rules here: https://checkstyle.org/checks/naming/index.html-->
+        <!--In general, Types are Pascal case, constants are all-caps, everything else is camal case
+        Also, underscores are not allowed in variable and method names-->
+        <module name="LocalVariableName"/>
+        <module name="MemberName"/>
+        <module name="MethodName"/>
+        <module name="PackageName"/>
+        <module name="ParameterName"/>
+        <module name="StaticVariableName"/>
+        <module name="TypeName"/>
+        <module name="ConstantName"/>
+
+        <!--Modifiers-->
+        <module name="ModifierOrder"/>
+        <!-- <module name="RedundantModifier"/> -->
+
+        <!--Blocks-->
+        <module name="AvoidNestedBlocks"/>
+        <module name="EmptyBlock"/>
+        <module name="NeedBraces"/>
+
+        <!--Coding Issues-->
+        <module name="EmptyStatement"/>
+        <module name="InnerAssignment"/>
+        <!-- <module name="MagicNumber"/> -->
+        <module name="MissingSwitchDefault"/>
+
+
+
+    </module>
+
+</module>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>WasteWaterServiceImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">backend</a> &gt; <a href="index.source.html" class="el_package">com.example.cis4900.spring.waterwiseapp.wastewater</a> &gt; <span class="el_source">WasteWaterServiceImpl.java</span></div><h1>WasteWaterServiceImpl.java</h1><pre class="source lang-java linenums">package com.example.cis4900.spring.waterwiseapp.wastewater;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.cis4900.spring.waterwiseapp.wastewater.repository.WasteWaterRepository;
+import com.example.cis4900.spring.waterwiseapp.wastewater.models.WasteWater;
+
+
+
+import java.util.List;
+
+
+
+@Service
+<span class="nc" id="L17">public class WasteWaterServiceImpl implements WasteWaterService {</span>
+    
+    @Autowired
+    private WasteWaterRepository wasteWaterRepository;
+    private WasteWater wastewater;
+
+    @Override
+    public Iterable&lt;WasteWater&gt; allWasteWater() {
+        // return wasteWaterRepository.findAll();
+<span class="nc" id="L26">        return wasteWaterRepository.find100();</span>
+    }
+
+    @Override
+    public Iterable&lt;WasteWater.PhosphorusData&gt; allPhosph() {
+<span class="nc" id="L31">        return wasteWaterRepository.findPhosph();</span>
+    }
+
+    @Override
+    public List&lt;WasteWater.PhosphorusData&gt; getPhosphorusData() {
+<span class="nc" id="L36">        return wasteWaterRepository.findPhosph();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>
